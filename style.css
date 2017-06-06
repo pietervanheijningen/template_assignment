@@ -1,0 +1,309 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Calibri;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content:center;
+}
+div.sitecontainer{
+    width: 960px;
+    height: 100%
+}
+
+footer{
+    background-color: rgb(48, 109, 134);
+    color: white;
+    height: 50px;
+    width: 100%;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+footer p{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+div.stayintheknow{
+    background-color: rgb(225, 233, 238);
+    width: 100%;
+    height: 180px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+div.stayintheknow div.infobox{
+    height: 100%;
+    width: 18%;
+    margin-top: 35px;
+}
+div.stayintheknow div.infobox p {
+    color: rgb(48, 109, 134);
+}
+div.stayintheknow div#stayintheknowinfobox{
+    width: 35%;
+    margin-left: 10px;
+}
+div.stayintheknow div#stayintheknowinfobox p, div#stayintheknowinfobox a{
+    color: gray;
+    text-decoration: none;
+}
+div.stayintheknow div#stayintheknowinfobox form input{
+    border: 1px solid rgb(48, 109, 134);
+}
+div.stayintheknow div#stayintheknowinfobox form input.emailinput{
+    width: 80%;
+}
+div.stayintheknow div#stayintheknowinfobox form input.submitbutton{
+    width: 9%;
+}
+div.stayintheknow div#stayintheknowinfobox form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.stayintheknow div#lastinfobox{
+    margin-right: 10px;
+}
+div.stayintheknow hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div.stayintheknow h3{
+    font-weight: normal;
+}
+
+header{
+    width: 100%;
+    height: 120px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    color: gray;
+}
+header div{
+    margin: 10px;
+}
+header h1{
+    font-weight: normal;
+}
+header p{
+    margin-top: 10px;
+}
+header p.uhhhinfoboxiets{
+    margin-left: 35px;
+}
+
+/* TODO: verander het naar flexbox */
+nav{
+    border: 1px solid rgb(48, 109, 134);
+    overflow: hidden;
+    display: block;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(48, 109, 134);
+}
+nav li{
+    float: left;
+}
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 30px;
+    transition: 200ms;
+}
+nav li a:hover {
+    color: rgb(48, 109, 134);
+    background-color: rgb(229, 231, 253);
+}
+nav li input{
+    margin-top: 12px;
+    border: 0;
+    padding: 3px;
+}
+nav li input.searchinput{
+    display:block;
+    margin-left: 120px;
+    width: 210px;
+}
+nav li input.searchsubmit{
+    margin-left: 8px;
+    width: 80px;
+}
+nav li a.currentpage{
+    color: rgb(48, 109, 134);
+    background-color: rgb(229, 231, 253);
+    margin-left: 0;
+}
+
+div.bigphoto{
+    margin-top: 30px;
+}
+div.bigphoto img{
+    display: block;
+}
+div.bigphoto div.imginfo{
+    width: 100%;
+    height: 50px;
+    color: white;
+    text-align: center;
+    background-color: rgb(48, 109, 134);
+    display:flex;
+    align-items:center;
+}
+div.bigphoto div.imginfo h2{
+    font-weight: normal;
+    margin-left: 20px;
+}
+
+div.smallphotos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+}
+div.smallphotos img{
+    display: block;
+}
+div.smallphotos div.photocontainer div.linkcontainer{
+    background-color: rgb(48, 109, 134);
+    width: 100%;
+    height: 30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+div.smallphotos div.photocontainer div.linkcontainer a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+div.maincontent{
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+}
+div.maincontent h3{
+    font-weight: normal;
+}
+div.maincontent div.main hr{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+div.maincontent img{
+    display: block;
+}
+div.maincontent div.main, div.maincontent aside{
+    height: 100%;
+    width: 300px;
+}
+div.maincontent aside hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+div.maincontent aside div.socialmedia{
+    margin-top: 20px;
+}
+div.maincontent aside div.socialmedialinks{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+div.maincontent aside div.socialmedialinks div.socialmedialink{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border: 1px solid black;
+    height: 85px;
+    width: 85px;
+}
+div.maincontent aside div.socialmedialinks div.socialmedialink img{
+    display: block;
+}
+div.maincontent aside div.profilepicarticle{
+    display: flex;
+    justify-content: space-between;
+}
+div.maincontent aside div.profilepic{
+    border: 1px solid black;
+}
+div.maincontent aside div.profilepiccontainer{
+    height: 95px;
+    width: 30%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+div.maincontent aside div.articleuser{
+    height: 100%;
+    width: 70%;
+}
+div.maincontent div.continuereading{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+}
+div.maincontent div.continuereading a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(48, 109, 134);
+    padding: 2px 10px 2px 10px;
+    text-align: center;
+    display: block;
+}
+div.maincontent aside div.continuereading{
+    justify-content: flex-end;
+    margin-top: 2px;
+}
+div.maincontent div.main div.article{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(48, 109, 134);
+    max-width: 160px;
+    margin-left: 30px;
+}
+
+.dropdown-content a {
+    color: white;
+    width: 71px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    transition: 200ms;
+    margin-left:auto;
+    margin-right:auto;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
