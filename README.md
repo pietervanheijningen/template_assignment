@@ -1,4 +1,6 @@
 # template_opdracht
-Website die gemaakt is gebaseerd op een template die we kregen
+Website die gemaakt is gebaseerd op een template die we kregen:
 
-https://template-opdracht.000webhostapp.com/
+template: https://raw.githubusercontent.com/pietervanheijningen/template_opdracht/master/template_front_end_keuzedeel.png
+
+wbsite: https://template-opdracht.000webhostapp.com/
